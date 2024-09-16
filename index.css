@@ -1,0 +1,583 @@
+* {
+  margin: 0px;
+  padding: opx;
+}
+.container {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 5rem;
+  justify-content: space-around;
+  position: fixed;
+}
+@media screen and (max-width: 400px) {
+  .container {
+    display: flex;
+    background-color: white;
+    width: 20rem;
+    height: 40px;
+    justify-content: space-between;
+    position: fixed;
+  }
+}
+.container ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 2.5rem;
+  margin-top: 3.5rem;
+}
+@media screen and (max-width: 400px) {
+  .container ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-top: 0px;
+  }
+}
+.container ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+}
+@media screen and (max-width: 400px) {
+  .container ul li a {
+    font-size: 9px;
+  }
+}
+ul {
+  margin-top: 2rem;
+  margin-right: 100px;
+}
+@media screen and (max-width: 400px) {
+  ul {
+    margin-right: 0px;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 400px) {
+  ul {
+    margin-top: 3px;
+  }
+}
+.logo {
+  width: 8rem;
+  height: 5rem;
+}
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 50px;
+    height: 30px;
+  }
+}
+.login-main {
+  margin-top: 40px;
+  margin-right: 100px;
+}
+@media screen and (max-width: 400px) {
+  .login-main {
+    margin-right: 2px;
+    margin-top: 2px;
+  }
+}
+.login-main button {
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: white;
+  color: green;
+  border-color: green;
+}
+@media screen and (max-width: 400px) {
+  .login-main button {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0px;
+  }
+}
+.box {
+  background-image: url(greenbackgroundimages.jpg);
+  width: 100%;
+  height: 35rem;
+  text-align: center;
+}
+@media screen and (max-width: 400px) {
+  .box {
+    width: 400px;
+    height: 700px;
+  }
+}
+.logo1 {
+  width: 7.5rem;
+  height: 7.5rem;
+  padding-top: 6rem;
+}
+@media screen and (max-width: 400px) {
+  .logo1 {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+.delivery {
+  background-color: gainsboro;
+  width: 74.5rem;
+  height: 7.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.store {
+  padding-top: 2rem;
+  padding-left: 4rem;
+}
+@media screen and (max-width: 400px) {
+  .delivery {
+    grid-template-columns: 1fr;
+    width: 400px;
+    height: 500px;
+    margin-top: 30px;
+  }
+  .store {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+}
+.para {
+  padding-top: 2rem;
+  color: black;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 400px) {
+  .para {
+    font-size: 5px;
+  }
+}
+.para1 {
+  color: black;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 320px) {
+  .para1 {
+    font-size: 10px;
+  }
+}
+.box2 {
+  padding-top: 2rem;
+  color: black;
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 400px) {
+  .box2 {
+    font-size: 15px;
+  }
+}
+.button {
+  margin-top: 2rem;
+  padding: 15px 3.5rem 15px 3.5rem;
+  border-radius: 1.5rem;
+  color: black;
+}
+.button:hover {
+  background-color: green;
+  color: white;
+}
+.para2 {
+  font-size: 2rem;
+  color: green;
+  margin-left: 10px;
+  margin-top: 6rem;
+}
+@media screen and (max-width: 400px) {
+  .para2 {
+    font-size: 25px;
+    width: 20rem;
+  }
+}
+.para3 {
+  width: 25rem;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 400px) {
+  .para3 {
+    font-size: 20px;
+    width: 20rem;
+  }
+}
+.button1 {
+  padding: 1rem;
+  width: 12.5rem;
+  border-radius: 1.5rem;
+  background-color: white;
+  color: green;
+  margin-left: 10px;
+  border-color: green;
+}
+@media screen and (max-width: 400px) {
+  .button1 {
+    margin-left: 70px;
+  }
+}
+.button1:hover {
+  background-color: green;
+  color: white;
+}
+
+.project12 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 400px) {
+  .project12 {
+    grid-template-columns: 1fr;
+  }
+}
+.background {
+  background-color: rgb(115, 230, 115);
+  float: right;
+  width: 37rem;
+  height: 25rem;
+  margin-right: 7.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+.background img {
+  width: 10rem;
+  height: 10rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+@media screen and (max-width: 400px) {
+  .background {
+    width: 400px;
+    height: 1500px;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+  }
+  .background img {
+    padding-left: 90px;
+  }
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: 55rem;
+}
+@media screen and (max-width: 400px) {
+  .content {
+    grid-template-columns: 1fr;
+    height: 2000px;
+  }
+}
+.content1 {
+  border: solid black 1rem;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+.content1:active{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 400px) {
+  .content1 {
+    width: 280px;
+    height: 250px;
+  }
+}
+.content2 {
+  border: solid black 1rem;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+.content2:active{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 400px) {
+  .content2 {
+    width: 280px;
+    height: 250px;
+  }
+}
+.content3 {
+  border: solid black 1rem;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+}
+.content3:active{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 400px) {
+  .content3 {
+    width: 280px;
+    height: 250px;
+  }
+}
+.content4 {
+  border: solid black 1rem;
+  width: 20rem;
+  height: 20rem;
+  margin-left: 1.5rem;
+}
+.content4:active{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 400px) {
+  .content4 {
+    width: 280px;
+    height: 250px;
+  }
+}
+.content5 {
+  border: solid black 1rem;
+  width: 20rem;
+  height: 20rem;
+  margin-left: 1.5rem;
+}
+.content5:active{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 400px) {
+  .content5 {
+    width: 280px;
+    height: 250px;
+  }
+}
+.content6 {
+  border: solid black 1rem;
+  width: 20rem;
+  height: 20rem;
+  margin-left: 1.5rem;
+}
+.content6:active{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 400px) {
+  .content6 {
+    width: 280px;
+    height: 250px;
+  }
+}
+.background1{
+  background-color: green;
+}
+.head123 {
+  text-align: center;
+  color: white;
+}
+.logo12345 {
+  padding-left: 45%;
+  padding-top: 1rem;
+}
+@media screen and (max-width: 400px) {
+  .logo12345 {
+    padding-left: 30%;
+  }
+}
+.para4 {
+  font-size: 2.5rem;
+  color: green;
+  margin-left: 4.5rem;
+  margin-top: 6rem;
+}
+@media screen and (max-width: 400px) {
+  .para4 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+.para5 {
+  width: 25rem;
+  color: black;
+  font-size: 25px;
+  margin-left: 4.5rem;
+}
+@media screen and (max-width: 400px) {
+  .para5 {
+    width: 310px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+}
+.button3 {
+  padding: 1rem;
+  width: 12.5rem;
+  border-radius: 1.5rem;
+  background-color: green;
+  color: white;
+  margin-left: 4.5rem;
+}
+@media screen and (max-width: 400px) {
+  .button3 {
+    margin-left: 70px;
+  }
+}
+.button3:hover {
+  background-color: white;
+  color: green;
+}
+.button4 {
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 1.5rem;
+  margin-left: 5.5rem;
+  background-color: white;
+  color: green;
+}
+@media screen and (max-width: 400px) {
+  .button4 {
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+}
+.button4:hover {
+  background-color: green;
+  color: white;
+}
+.image3 {
+  display: flex;
+  float: right;
+  width: 30rem;
+  height: 25rem;
+  margin-right: 7.5rem;
+}
+@media screen and (max-width: 400px) {
+  .image3 {
+    width: 390px;
+    height: 300px;
+    margin-right: 0px;
+  }
+}
+.box5 {
+  padding-left: 100px;
+}
+@media screen and (max-width: 400px) {
+  .b0x5 {
+    padding-left: 0px;
+  }
+}
+.para6 {
+  font-size: 2.5rem;
+  color: green;
+  margin-left: 2.5rem;
+  margin-top: 20rem;
+}
+@media screen and (max-width: 400px) {
+  .para6 {
+    font-size: 20px;
+  }
+}
+.image4 {
+  display: flex;
+  float: left;
+  width: 30rem;
+  height: 25rem;
+  margin-right: 7.5rem;
+  margin-top: 15rem;
+}
+@media screen and (max-width: 400px) {
+  .image4 {
+    width: 400px;
+    height: 300px;
+  }
+}
+.button5 {
+  padding: 1rem;
+  width: 12.5rem;
+  border-radius: 1.5rem;
+  background-color: green;
+  color: white;
+  border-color: green;
+  margin-left: 1rem;
+  margin-top: 3.5rem;
+}
+@media screen and (max-width: 400px) {
+  .button5 {
+    margin-left: 90px;
+    margin-top: 30px;
+  }
+}
+.button5:hover {
+  background-color: white;
+  color: green;
+}
+
+footer {
+  background-color: gainsboro;
+  width: 100%;
+  height: 30rem;
+}
+@media screen and (max-width: 400px) {
+  footer {
+    width: 20rem;
+    height: 55rem;
+  }
+}
+.conclusion {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 40px;
+  padding-left: 200px;
+}
+@media screen and (max-width: 400px) {
+  .conclusion {
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+  }
+}
+.footer-content {
+  color: black;
+  padding-left: 30px;
+}
+@media screen and (max-width: 400px) {
+  .footer-content {
+    padding-left: 80px;
+    padding-top: 20px;
+  }
+}
+.footer-content li a {
+  text-decoration: none;
+  color: black;
+}
+.footer-content li a i {
+  list-style-type: none;
+}
+.list-main1 {
+  list-style-type: none;
+  display: flex;
+}
+.list-main {
+  list-style-type: none;
+}
+@media screen and (max-width: 400px) {
+  .list-main {
+    padding-left: 20px;
+  }
+}
+.bottom-bar {
+  padding-left: 38%;
+  color: black;
+}
+@media screen and (max-width: 400px) {
+  .bottom-bar {
+    padding-left: 50px;
+  }
+}
+.logo2 {
+  width: 100px;
+  height: 90px;
+  padding-left: 46%;
+  padding-top: 30px;
+}
+@media screen and (max-width: 400px) {
+  .logo2 {
+    padding-left: 140px;
+  }
+}

@@ -1,0 +1,37 @@
+
+body{
+    background-image:url(background2.jpg) ;
+}
+.wrapper{
+    background-color:rgb(163, 204, 245) ;
+    width: 450px;
+    height: 450px;
+    margin-left: 35%;
+    margin-top: 7%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.form-box h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.input-box{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.input-box input{
+    border-radius: 10px;
+}
+.remember-forget{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 100px 10px 100px;
+    border-radius: 20px;
+}
+.login-register{
+    margin-top: 20px;
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furnitures Websites</title>
+    <link rel="stylesheet" href="contact us.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <img src="logo12345.jpg" alt="" class="logo" />
+      <ul>
+        <li><a href="index.html"> HOME</a></li>
+        <li><a href="contact us .html">CONTACT US</a></li>
+        <li><a href="about us .html">ABOUT US</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+      </ul>
+      <form action="" class="login-main">
+      <button type="submit" > <a href="login.html" style="text-decoration: none; color: green;">Login</a></button> 
+      </form>
+    </header>
+    <br /><br /><br /><br />
+    <div class="colours">
+      <div class="address">
+        <i class="fas fa-phone" style="font-size: 30px; color: green"></i>
+        <h3 style="padding-top: 10px">Telephone</h3>
+        <p style="padding-top: 10px">1(234) 567-891</p>
+        <p style="padding-top: 10px">1(243) 987-657</p>
+      </div>
+      <div class="address">
+        <i
+          class="fas fa-phone-square"
+          style="font-size: 35px; color: green"
+        ></i>
+        <h3 style="padding-top: 10px">Whatsapp</h3>
+        <p style="padding-top: 10px">6345678932</p>
+        <p style="padding-top: 10px">7345678756</p>
+      </div>
+      <div class="address">
+        <i
+          class="fas fa-map-marker-alt"
+          style="font-size: 30px; color: green"
+        ></i>
+        <h3 style="padding-top: 10px">Location</h3>
+        <p style="padding-top: 10px">
+          121 Rock Street, 21 Sengalpattu, Chennai,621-302.
+        </p>
+      </div>
+      <div class="address">
+        <i class="fas fa-life-ring" style="font-size: 30px; color: green"></i>
+        <h3 style="padding-top: 10px">Time and Days</h3>
+        <p style="padding-top: 10px">
+          Mon-Fri....11am-8pm,<br />Sat-Sun....6am-8pm.
+        </p>
+      </div>
+    </div>
+    <div class="details">
+      <h1 class="box">CONTACT US OF FURNITURES</h1>
+      <p class="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus beatae
+        voluptatum eos ipsum voluptas at nobis voluptatibus quibusdam dolorum
+        possimus.
+      </p>
+      <form action="">
+        <button type="submit" class="store">View More</button>
+      </form>
+      </div>
+    <div class="register">
+      <form action="product.html" id="form">
+        <h1 style="padding-left: 43%; padding-top: 2rem">Contact Us</h1>
+        <div class="form-control">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            class="main"
+          /> <br>
+          <span style="color: red;padding-left: 540px;" id="name_error"></span>
+          <br />
+        </div>
+        <div class="form-control">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            class="main"
+          />
+          <span style="color: red;padding-left: 540px;" id="email_error"></span>
+        </div>
+        <br />
+        <div class="form-control">
+          <input
+            type="text"
+            name="address"
+            id="address"
+            placeholder="Address"
+            class="main"
+          />
+          <span style="color: red;padding-left: 540px;" id="address_error"></span>
+        </div>
+        <br />
+        <div class="form-control">
+          <input
+            type="text"
+            name="messages"
+            id="message"
+            placeholder="Enter Your Messages"
+            class="main"
+            style="padding-bottom: 3rem"
+          />
+          <span style="color: red;padding-left: 540px;" id="message_error"></span>
+        </div> 
+        <br /><br />
+        <button type="submit" class="main2">SUBMIT</button>
+      </form>
+    </div>
+
+    <br /><br /><br />
+    <script>
+     const name = document.getElementById("name");
+      const email = document.getElementById("email");
+       const address = document.getElementById("address");
+        const message = document.getElementById("message");
+         const form = document.getElementById("form");
+
+           const name_error = document.getElementById("name_error");
+            const email_error = document.getElementById('email_error');
+            const address_error = document.getElementById("address_error");
+            const  message_error = document.getElementById("message_error");
+
+         form.addEventListener("submit",(e) =>
+          {
+          var email_check = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/
+          if(name.value===''|| name.value==null)
+          {
+              e.preventDefault();
+              name_error.innerHTML = "Name is required";
+          }
+          else{
+            name_error.innerHTML = "";
+          }
+
+          if (!email.value.match(email_check))
+        {
+          e.preventDefault();
+          email_error.innerHTML = "valid Email is required";
+        }
+         else{
+            email_error.innerHTML = "";
+          }
+        if(address.value===''|| address.value==null)
+          {
+              e.preventDefault();
+              address_error.innerHTML = "Address is required";
+          }
+           else{
+            address_error.innerHTML = "";
+          }
+          if(message.value===''|| message.value==null)
+          {
+              e.preventDefault();
+              message_error.innerHTML = "Message is required";
+          }
+           else{
+            message_error.innerHTML = "";
+          }
+          
+      }
+        )
+    </script>
+    <footer>
+      <img src="logo.jpg" alt="" class="logo2" />
+      <div class="conclusion">
+        <div class="footer-content">
+          <h1 style="color: black">Contact Us</h1>
+          <p style="padding-top: 30px">Email:Infoexample.com</p>
+          <p style="padding-top: 30px">Phone:1(234)567-891</p>
+          <p style="padding-top: 30px">Whatsapp:6345678932</p>
+          <p style="padding-top: 30px">
+            Address:121 Rock Street,<br />Chennai.
+          </p>
+        </div>
+        <div class="footer-content">
+          <h1 style="color: black">Quick Links</h1>
+          <ul class="list-main">
+            <li><a href=""> HOME</a></li>
+            <li style="padding-top: 30px"><a href="">CONTACT US</a></li>
+            <li style="padding-top: 30px"><a href="">ABOUT US</a></li>
+            <li style="padding-top: 30px"><a href="">PRODUCT</a></li>
+            <li style="padding-top: 30px"><a href=""> 50% OFF PRODUCT</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h1 style="color: black; padding-left: 10px">Follow Us</h1>
+          <ul class="list-main1">
+            <li>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </li>
+            <li style="padding-left: 10px">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li style="padding-left: 10px">
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li style="padding-left: 10px">
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+          <br />
+          <form action="">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              style="margin-left: 20px"
+            /><br />
+            <button
+              type="submit"
+              style="
+                margin-left: 20px;
+                margin-top: 30px;
+                background-color: white;
+                padding: 0px 20px 0px 20px;
+              "
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <div>
+        <br />
+        <hr />
+        <br />
+        <div class="bottom-bar">
+          <p>&copy; 2024 Your Company . All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

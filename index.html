@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furnitures Websites</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <img src="logo12345.jpg" alt="" class="logo" />
+      <ul>
+        <li><a href="index.html"> HOME</a></li>
+        <li><a href="contact us .html">CONTACT US</a></li>
+        <li><a href="about us .html">ABOUT US</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+      </ul>
+      <form action="" class="login-main" >
+      <button type="submit" > <a href="login.html" style="text-decoration: none; color: green;">Login</a></button> 
+      </form>
+      
+    </header>
+    <div class="box">
+      <div>
+        <img src="logo.jpg" alt="" class="logo1" />
+        <h1 class="box2">Discover The Best<br />Furnitures For You</h1>
+        <p class="para">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+          exercitationem nam temporibus necessitatibus.
+        </p>
+        <p class="para1">
+          Lorem ipsum dolor sit. Lorem ipsum dolor sit amet. Lorem ipsum dolor
+         amet consectetur adipisicing elit. Iusto, eius corporis.
+          Necessitatibus mollitia eum natus molestiae aperiam doloribus ratione
+        </p>
+        <form action="">
+          <button type="submit" class="button">View More</button>
+        </form>
+      </div>
+    </div>
+    <marquee behavior="slide" direction="right" scrollamount="20">
+    <div class="delivery">
+      <div class="store">
+        <i class="fa-solid fa-cart-shopping" style="color: green;"></i>
+        <h3>Free Delivery</h3>
+        <p>lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="store">
+        <i class="fa-solid fa-headset" style="color: green;"></i>
+        <h3>Support 24/7</h3>
+        <p>lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="store">
+        <i class="fa-solid fa-rotate-left" style="color: green;"></i>
+        <h3>30 Day Return</h3>
+        <p>lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="store">
+        <i class="fa-solid fa-truck-fast" style="color: green;"></i>
+        <h3>Free Delivery</h3>
+        <p>lorem ipsum dolor sit amet.</p>
+      </div>
+      </div>
+    </marquee>
+    <div class="project12" >
+      <div class="background" id ="pass1" onclick="color1()">
+        <img src="product22.jpg" alt="" id="changeImages" onclick="changeImage()">
+        <img src="product10.jpg" alt="" id="changeImages1" onclick="changeImage7()" />
+        <img src="allfurnitures5.jpg" alt="" id="changeImages2" onclick="changeImage8()" />
+        <img src="product20.jpg" alt="" id="changeImages3" onclick="changeImage9()" />
+        <img src="product15.jpg" alt="" id="changeImages4" onclick="changeImage10()" />
+        <img src="images3.jpg" alt="" id="changeImages5" onclick="changeImage11()" />
+      </div>
+      <script>
+        function color1(){
+           let color1 = document.querySelector("#pass1").style.backgroundColor = "green";
+          
+      }
+        function changeImage(){
+                   let images=document.getElementById("changeImages")
+                   if(images.src.match("product22.jpg")){
+                   images.src="furnitures_images.jpg"
+                   } else {
+                    images.src="product22.jpg"
+                   }
+        }
+         function changeImage7(){
+                   let images7=document.getElementById("changeImages1")
+                   if(images7.src.match("product10.jpg")){
+                   images7.src="single sofa1.jpg"
+                   } else {
+                    images7.src="product10.jpg"
+                   }
+        }
+         function changeImage8(){
+                   let images8=document.getElementById("changeImages2")
+                   if(images8.src.match("allfurnitures5.jpg")){
+                   images8.src="product14.jpg"
+                   } else {
+                    images8.src="allfurnitures5.jpg"
+                   }
+        }
+         function changeImage9(){
+                   let images9=document.getElementById("changeImages3")
+                   if(images9.src.match("product20.jpg")){
+                   images9.src="product21.jpg"
+                   } else {
+                    images9.src="product20.jpg"
+                   }
+        }
+         function changeImage10(){
+                   let images10=document.getElementById("changeImages4")
+                   if(images10.src.match("product15.jpg")){
+                   images10.src="product17.jpg"
+                   } else {
+                    images10.src="product15.jpg"
+                   }
+        }
+         function changeImage11(){
+                   let images11=document.getElementById("changeImages5")
+                   if(images11.src.match("images3.jpg")){
+                   images11.src="projectimages1.jpg"
+                   } else {
+                    images11.src="images3.jpg"
+                   }
+        }
+      </script>
+      <div class="box3">
+        <p class="para2">
+          We need Furniture for our comfortable lives, <br />for Storage,
+          Sitting on and, for Relaxation.
+        </p>
+        <br />
+        <br />
+        <p class="para3">
+          Presenting Academy, the tech school of the future. We teach you the
+          right skills to be prepared for tomorrow.
+        </p>
+        <br />
+        <br />
+        <form action="">
+          <button type="submit" class="button1">EXPLORE COURSES</button>
+        </form>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <div class="background1" id="pass"  onclick="black()">
+      <div class="logo12345">
+        <img src="logo123.jpg" width="130px" height="70px" alt="" />
+      </div>
+      <h1 class="head123">TAKE YOUR FURNITURES</h1>
+      <div class="content" >
+        <img
+          src="bed.jpg"
+          width="500px"
+          height="500px"
+          alt=""
+          class="content1" id="Image1" onclick="changeImage1()"
+        />
+        <img
+          src="sofa.jpg"
+          width="500px"
+          height="500px"
+          alt=""
+          class="content2" id="Image2" onclick="changeImage2()"
+        />
+        <img
+          src="product12.jpg"
+          width="500px"
+          height="500px"
+          alt=""
+          class="content3" id="Image8" onclick="changeImage3()"
+        />
+        <img
+          src="diningtable6.jpg"
+          width="500px"
+          height="500px"
+          alt=""
+          class="content4" id="Image4" onclick="changeImage4()"
+        />
+        <img
+          src="cupboard.jpg"
+          width="500px"
+          height="500px"
+          alt=""
+          alt=""
+          class="content5"  id="Image5" onclick="changeImage5()"
+        />
+        <img
+          src="images2.jpg"
+          width="500px"
+          height="500px"
+          alt=""
+          alt=""
+          class="content6" id="Image6" onclick="changeImage6()"
+        />
+      </div>
+    </div>
+    <script>
+      function black(){
+           let color = document.querySelector("#pass").style.backgroundColor = "rgb(125,240,125)";
+          
+      }
+        function changeImage2(){
+                   let images2=document.getElementById("Image2")
+                   if(images2.src.match("sofa.jpg")){
+                   images2.src="background1.jpg"
+                   } else {
+                    images2.src="sofa.jpg"
+                   }
+        }
+        function changeImage1(){
+                   let images1=document.getElementById("Image1")
+                   if(images1.src.match("bed.jpg")){
+                   images1.src="bed8.jpg"
+                   } else {
+                    images1.src="bed.jpg"
+                   }
+            }
+            function changeImage3(){
+                   let images8=document.getElementById("Image8")
+                   if(images8.src.match("product12.jpg")){
+                   images8.src="product11.jpg"
+                   } else {
+                    images8.src="product12.jpg"
+                   }
+            }
+            function changeImage4(){
+                   let images4=document.getElementById("Image4")
+                   if(images4.src.match("diningtable6.jpg")){
+                   images4.src="product20.jpg"
+                   } else {
+                    images4.src="diningtable6.jpg"
+                   }
+            }
+            function changeImage5(){
+                   let images5=document.getElementById("Image5")
+                   if(images5.src.match("cupboard.jpg")){
+                   images5.src="product15.jpg"
+                   } else {
+                    images5.src="cupboard.jpg"
+                   }
+            }
+            function changeImage6(){
+                   let images6=document.getElementById("Image6")
+                   if(images6.src.match("images2.jpg")){
+                   images6.src="image11.jpg"
+                   } else {
+                    images6.src="images2.jpg"
+                   }
+            }
+      </script>
+    <div>
+      <div class="box1">
+        <img src="pictures1.jpg" alt=" " class="image3" />
+      </div>
+      <div class="box3">
+        <p class="para4">
+          You can lie down on this piece of furniture,<br> but they are more meant for sitting.
+        </p>
+        <br />
+        <br />
+        <p class="para5">
+          Presenting Academy, the tech school of the future. We teach you the
+          right skills to be prepared for tomorrow.
+        </p>
+        <br />
+        <br />
+        <form action="">
+          <button type="submit" class="button3">EXPLORE COURSES</button>
+
+          <button type="submit" class="button4">LEARN MORE</button>
+        </form>
+      </div>
+    </div>
+    <div class="box5">
+        <img src="bed1.jpg" alt=" " class="image4" />
+      </div>
+      <div class="box4">
+        <p class="para6">
+          A bed is an item of furniture  that is <br> used as a place to sleep,<br> rest, and relax.
+        </p>
+        <form action="">
+          <button type="submit" class="button5">EXPLORE COURSES</button>
+        </form>
+      </div><br><br><br><br><br><br>
+    </div>
+  <footer>
+     <img src="logo.jpg" alt="" class="logo2" />
+      <div class="conclusion">
+    <div class="footer-content">
+      <h1 style="color: black;">Contact Us</h1>
+      <p  style="padding-top: 30px;">Email:Infoexample.com</p>
+      <p  style="padding-top: 30px;">Phone:1(234)567-891</p>
+      <p  style="padding-top: 30px;">Whatsapp:6345678932</p>
+      <p  style="padding-top: 30px;">Address:121 Rock Street,<br>Chennai.</p>
+    </div>
+    <div class="footer-content">
+      <h1 style="color: black;">Quick Links</h1>
+      <ul class="list-main">
+        <li style="padding-top: 30px;"><a href=""> HOME</a></li>
+        <li style="padding-top: 30px;"><a href="">CONTACT US</a></li>
+        <li style="padding-top: 30px;"><a href="">ABOUT US</a></li>
+        <li style="padding-top: 30px;"><a href="">PRODUCT</a></li>
+        <li style="padding-top: 30px;"><a href=""> 50% OFF PRODUCT</a></li>
+      </ul>
+    </div>
+    <div class="footer-content">
+      <h1 style="color: black; padding-left: 10px;">Follow Us</h1>
+      <ul class="list-main1">
+      <li ><a href=""><i class="fab fa-facebook"></i></a></li>
+      <li style="padding-left: 10px;" ><a href=""><i class="fab fa-twitter"></i></a></li>
+      <li style="padding-left: 10px;"><a href=""><i class="fab fa-instagram"></i></a></li>
+      <li style="padding-left: 10px;"><a href=""><i class="fab fa-linkedin"></i></a></li>
+       </ul> <br>
+       <form action="">
+        <input type="email" name="email" placeholder="Enter Your Email" style="margin-left: 20px;"><br>
+       <button type="submit" style="margin-left: 20px; margin-top: 30px;background-color: white;padding: 0px 20px 0px 20px;">Submit</button>
+      </form>  
+    </div>
+    </div>
+   <div><br>
+    <hr><br>
+    <div class="bottom-bar">
+      <p>&copy; 2024 Your Company . All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
